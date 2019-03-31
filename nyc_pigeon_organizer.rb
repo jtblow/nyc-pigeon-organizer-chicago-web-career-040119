@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
       names.each.do |name|
     if final_hash[name] == nil 
       final_hash[name] = {}
-      final_hash[name]
+      final_hash[name][property] =
     end
    if !final_hash[name].has_key?(attribute)
           new_hash[name][attribute] = []
