@@ -12,13 +12,4 @@ def nyc_pigeon_organizer(data)
   end
 end
 end
-   if !final_hash[name].has_key?(attribute)
-          new_hash[name][attribute] = []
-        end
-        if !new_hash[name][attribute].include?(details)
-          new_hash[name][attribute] << details.to_s
-        end
-      end
-    end
-  final_hash
-end
+   final_hash.each do
