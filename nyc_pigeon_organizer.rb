@@ -1,6 +1,6 @@
-def nyc_pigeon_organizer(pigeon_data)
+def nyc_pigeon_organizer(data)
   final_hash = {}
-  pigeon_data.each do |attributes|
+  data.each do |attributes|
     attributes.each go |keys, names|
     if new_hash.has_value?(names)
       new_hash[names][:color] << color
