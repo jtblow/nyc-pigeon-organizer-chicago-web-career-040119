@@ -9,7 +9,6 @@ def nyc_pigeon_organizer(data)
    if !final_hash[name].has_key?(attribute)
           new_hash[name][attribute] = []
         end
-
         if !new_hash[name][attribute].include?(details)
           new_hash[name][attribute] << details.to_s
         end
