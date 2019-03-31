@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute, hash|
     hash.each do |details, names|
       names.each.do |name|
-    if !new_hash.has_key?(names)
+    if !new_hash.has_key?(name)
       new_hash[names][:color] << color
       
     else
