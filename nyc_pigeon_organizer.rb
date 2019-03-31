@@ -12,4 +12,4 @@ def nyc_pigeon_organizer(data)
   end
 end
 end
-   final_hash.each do
+   final_hash.each do 
