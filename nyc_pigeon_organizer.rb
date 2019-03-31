@@ -13,6 +13,6 @@ def nyc_pigeon_organizer(data)
           new_hash[name][attribute] << details.to_s
         end
       end
-    
+    end
   final_hash
 end
