@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(pigeon_data)
-  new_hash = {}
+  final_hash = {}
   pigeon_data.each do |attributes|
     attributes.each go |keys, names|
     if new_hash.has_value?(names)
